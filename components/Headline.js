@@ -7,7 +7,7 @@ const Headline = ({ title }) => {
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
-          <code className={styles.code}>pages/{title}</code>
+          <code className={styles.code}>pages/{title}.js</code>
         </p>
         <div>
           <a

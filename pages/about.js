@@ -1,9 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Links from "../components/Links";
+import Main from "../components/Main";
 
-import Headline from "../components/Headline";
 
 export default function about() {
   return (
@@ -14,10 +11,7 @@ export default function about() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <Headline title="about.js" />
-        <Links />
-      </main>
+      <Main title="about" />
     </>
   );
 }
