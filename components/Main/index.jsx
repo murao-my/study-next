@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Main.module.css";
-import Links from "../components/Links";
-import Headline from "../components/Headline";
+
+import Headline from "../Headline";
+import Links from "../Links";
 
 const Main = ({ title }) => {
   return (
     <main className={styles.main}>
       <Headline title={title} />
-      <Links />
+      <Links/>
     </main>
   );
 };
